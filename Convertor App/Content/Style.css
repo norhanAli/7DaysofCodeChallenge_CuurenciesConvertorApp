@@ -1,0 +1,49 @@
+﻿/* CSS used here will be applied after bootstrap.css */
+
+body {
+    /*I just tried all the images in img folder and I match it randomly :D */
+    background: url('../img/c9.jpg') no-repeat center center fixed;
+    /*background-image: url('images/CCOExtension_logo.jpg');*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    color:#63596e !important
+}
+
+
+h2 {
+    background: url('../img/google-logo.png') no-repeat center center fixed;
+}
+.panel-default {
+ opacity: 0.9;
+ margin-top:50px;
+}
+.form-group.last {
+ margin-bottom:0px;
+}
+
+.panelColor{
+  border-color:#c24f57;
+}
+
+.spacebetwwenInput{
+    margin-bottom: 20px;
+   width:77%;
+   text-align: center;
+   margin-left: 90px;
+}
+.paneldesign{
+        margin-left: 328px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #d4c9ae;
+    color: white;
+    text-align: center;
+}
